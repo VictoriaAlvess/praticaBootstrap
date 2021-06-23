@@ -7,54 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <style>
         .tm-social {
             width: 30px;
             height: 30px;
+        }
+        
+        .left {
+            text-align: left;
+        }
+        
+        .bgc {
+            background: rgb(192, 192, 192);
+            background: linear-gradient(90deg, rgba(192, 192, 192, 1) 0%, rgba(211, 211, 211, 1) 31%);
+        }
+        
+        .font {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
     </style>
 
     <title>Olá, mundo!</title>
 </head>
 
-<body>
+<body class="bgc font">
     <!--NavBar Menu-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top font">
         <!-- Imagem e texto -->
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="https://i.pinimg.com/originals/f1/80/02/f1800236ad937d615719cc9690c02d7d.png" width="30" height="30"
-                    class="d-inline-block align-top" alt="">
-                Rap Nacional
+                <img src="https://i.pinimg.com/originals/f1/80/02/f1800236ad937d615719cc9690c02d7d.png" width="30" height="30" class="d-inline-block align-top" alt=""> Rap Nacional
             </a>
         </nav>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <div class="collapse navbar-collapse font" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-                <li class="nav-item dropdown">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                    <li class="nav-item dropdown">
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> História <span class="sr-only">(página atual)</span></a>
-                <li class="nav-item dropdown">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#historia"> História <span class="sr-only">(página atual)</span></a>
+                            <li class="nav-item dropdown">
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> Primeiros shows <span class="sr-only">(página atual)</span></a>
-                <li class="nav-item dropdown">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#shows"> Primeiros shows <span class="sr-only">(página atual)</span></a>
+                                    <li class="nav-item dropdown">
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> Principais rappers <span class="sr-only">(página atual)</span></a>
-                <li class="nav-item dropdown">
-                </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#"> Principais rappers <span class="sr-only">(página atual)</span></a>
+                                            <li class="nav-item dropdown">
+                                            </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <form class="form-inline my-2 my-lg-0 font">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
                 <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
@@ -71,17 +80,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100"
-                    src="https://projetocolabora.com.br/wp-content/uploads/2017/07/Racionais-2.jpg"
-                    alt="Primeiro Slide">
+                <img class="d-block w-100" src="https://projetocolabora.com.br/wp-content/uploads/2017/07/Racionais-2.jpg" alt="Primeiro Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100"
-                    src="https://revistacult.uol.com.br/home/wp-content/uploads/2019/01/sabota.png" alt="Segundo Slide">
+                <img class="d-block w-100" src="https://revistacult.uol.com.br/home/wp-content/uploads/2019/01/sabota.png" alt="Segundo Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://images.vice.com/noisey/content-images/contentimage/59413/8.jpg"
-                    alt="Terceiro Slide">
+                <img class="d-block w-100" src="https://images.vice.com/noisey/content-images/contentimage/59413/8.jpg" alt="Terceiro Slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -96,50 +101,70 @@
     <!--/Carousel Slide-->
 
     <!--jumbotron divisão-->
-    <div class="jumbotron jumbotron-fluid">
+    <div>
         <div class="container">
-            <h1 class="display-4">Rap Nacional </h1>
-            <p class="lead">O Brasil é um país bastante diversificado, onde abrange uma série de gêneros, raças,
-                culturas e porque não, estilos musicais diferenciados. Sendo assim, o Rap é um dos estilos que fazem
-                parte do país, e o rap nacional tem grande destaque em todos os lugares.
-                Como já sabemos, o Rap é um estilo musical que abrange uma grande parte dos brasileiros, mas você
-                conhece a história no Brasil?
-                Bora conhecer?
+            <p>
+                <h1 class="display-4 text-center font" id="historia">Rap Nacional </h1>
             </p>
+            <p class="lead text-justify font">
+                O Rap trata-se de um dos estilos musicais mais apreciados em todo o mundo, onde seu significado mais claro é Rhythm And Poetry que significa Ritmo e Poesia. O mesmo surgiu na Jamaica, mais precisamente no ano de 1960. Da Jamaica, o Rap foi levado para
+                os Estados unidos, onde era bastante ouvido principalmente nos bairros menos favorecidos da cidade de Nova Iorque. O grande impulso que o Rap teve foi no ano de 1970, isso se deu com um grupo de jovens negros e espanhóis que buscavam um
+                tipo som diferenciado e novo. Conhecido por ter uma letra em forma de discurso, o Rap, oferece mais informação do que a melodia propriamente dita. Por ter sido impulsionado nos bairros mais pobres, tem em suas letras o discurso narrado
+                das grandes dificuldades encontradas pelos moradores desses bairros pobres. Diante de tudo isso, o Brasil é um dos países que mais acolheu e desenvolveu o rap nacional. Como já pode ser visto o Rap começou mais precisamente no ano de 1960,
+                e foi ganhar destaque no Brasil no ano de 1986. Ano que surgiu o movimento nacional. E como não poderia ser diferente, o mesmo surgiu precisamente na maior cidade do nosso país, a cidade de São Paulo. Muitas foram às dificuldades encontradas
+                pelas pessoas que praticavam este estilo musical, já que era taxado como um tipo de música violenta e principalmente de periferia, o que era já o preconceito se mostrando para todos.
+            </p>
+
+            <iframe src="https://open.spotify.com/embed/track/4WZfgKQ9WGPsa25rHVrL3x?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
-    <!--/jumbotron divisão-->
+
+    <hr>
+    <p>
+        <div class="container">
+            <h1 class="display-4 text-center font" id="shows">Primeiros shows</h1>
+    </p>
+    <img src="http://pa1.narvii.com/6485/3720fa65db7ad03566b34463ab48ef121ee2c40d_00.gif" class="rounded mx-auto d-block" alt="gif Mano Brown">
+    <p class="lead text-justify font ">Tudo acontecia em um teatro, o Teatro Mambembe, onde um dos primeiros a fazer este estilo musical foi o DJ Theo Werneck. Este foi o começo do rap nacional no Brasil. Com o passar dos anos, o movimento só ganha força a cada dia, e já nos anos 90 o
+        rap nacional começa a ganhar as rádios e principalmente a indústria fonográfica. Diante de todo esse crescimento do rap nacional, surgiram os primeiros Rappers no país que foram Thayde e DJ Hum. Estes foram os primeiros a ganhar destaque nacional
+        com o Rap. A partir daí surgiram grupos que são destaque até hoje no país, são eles: Racionais MCs, Pavilhão 9, Detentos do Rap, Câmbio Negro, Xis & Dentinho, Planet Hemp. Alguns desses grupos não existem mais, só que a grande maioria ainda está
+        aí fazendo ainda mais sucesso em todo o território nacional. O estilo do Rap tem como principal característica, ser forte, onde mostra em forma de música os protestos de todas as pessoas mais necessitadas do nosso país. É um estilo musical que
+        é usado para fazer uma forma sadia de protesto no Brasil. Os primeiros grupos do movimento do rap nacional, se reuniram no final dos anos 80 na Galeria 24 de Maio, como também na estação São Bento do metrô de São Paulo. Ambas consideradas o berço
+        do movimento Punk no país. No ano de 1988, foi lançado o primeiro álbum de rap nacional, álbum esse que tinha como título Hip-Hop Cultura de Rua, este álbum foi lançado pela gravadora Eldorado que teve a produção de dois integrantes do grupo Ira,
+        Nasi e André Jung.
 
 
-    <div class="container">
-        <div class="card-columns">
-            <img src="https://i.gifer.com/4tOx.gif" class="rounded mx-auto d-block" alt="...">
 
-        </div>
+    </p>
+    </div>
+    </div>
+    </div>
+
+    </div>
     </div>
 
     <!--Rodapé-->
     <hr>
     <footer>
-
-        <div class="row mb-3">
-            <div class="col-md-12 d-flex justify-content-center">
-                <a href="https://www.facebook.com/victoria.v.alves.5/" class="p-3">
-                    <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
-                </a>
-                <a href="https://www.linkedin.com/in/vict%C3%B3ria-alves-747246191/ " class="p-3">
-                    <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
-                </a>
-                <a href="https://www.instagram.com/victoria.alvess/" class="p-3">
-                    <img class="tm-social" src="assets/img/insta.png" alt="Logo do Instagram">
-                </a>
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="https://www.facebook.com/victoria.v.alves.5/" class="p-3">
+                        <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
+                    </a>
+                    <a href="https://www.linkedin.com/in/vict%C3%B3ria-alves-747246191/ " class="p-3">
+                        <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+                    </a>
+                    <a href="https://www.instagram.com/victoria.alvess/" class="p-3">
+                        <img class="tm-social" src="assets/img/insta.png" alt="Logo do Instagram">
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="col-md-12">
-            <p class="text-center">
-                Todos os direitos reservados: Victória Alves &copy
-            </p>
-        </div>
+            <div class="col-md-12">
+                <p class="text-center">
+                    Todos os direitos reservados: Victória Alves &copy
+                </p>
+            </div>
     </footer>
     </div>
 
@@ -153,15 +178,9 @@
 
 
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
